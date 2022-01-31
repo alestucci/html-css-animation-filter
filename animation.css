@@ -95,3 +95,14 @@
     }
 }
 
+.ex-11-icon:hover {
+    animation: rotatetostart;
+    animation-duration: 2s;
+    animation-timing-function: linear;
+}
+
+@keyframes rotatetostart {
+    90% {
+        transform: rotate(315deg);
+    }
+}
